@@ -47,7 +47,7 @@ body {
 }
 
 #container main {
-	margin: 20rem auto 0 auto;
+	margin: 20rem auto 10rem auto;
 	width: 45rem;
 	min-height: 30rem;
 	max-height: auto;
@@ -90,6 +90,7 @@ body {
 	color: hsl(292, 42%, 14%);
 	font-size: 13px;
 	font-weight: 600;
+	margin: 2rem;
 }
 
 #container main article dl dt .plus-minus-wrapper {
@@ -99,17 +100,9 @@ body {
 	display: block;
 }
 
-/* #container main article dl dt .plus.active {
-	display: none;
-} */
-
 #container main article dl dt .minus {
 	display: none;
 }
-
-/* #container main article dl dt .minus.active {
-	display: block;
-} */
 
 #container main article dl .answers {
 	display: none;
@@ -118,7 +111,3 @@ body {
 	font-size: 12px;
 	width: 90%;
 }
-
-/* .faqs.active {
-	display: block;
-} */
