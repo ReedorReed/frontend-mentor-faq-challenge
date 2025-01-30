@@ -3,201 +3,174 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="./assets/images/favicon-32x32.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet" />
-		<link rel="stylesheet" href="styles.css" />
-		<title>Frontend Mentor | FAQ accordion</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<title>FrontendMentor | FAQs</title>
 	</head>
 	<body>
-		<div class="container">
-			<div class="card">
-				<div class="card-header">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="40"
-						height="41"
-						fill="none"
-						viewBox="0 0 40 41">
-						<path
-							fill="#AD28EB"
-							d="M37.5 20.5a2.467 2.467 0 0 1-1.64 2.344l-9.913 3.604-3.603 9.911a2.5 2.5 0 0 1-4.688 0l-3.604-9.922-9.911-3.593a2.5 2.5 0 0 1 0-4.688l9.921-3.604 3.594-9.911a2.5 2.5 0 0 1 4.688 0l3.604 9.921 9.911 3.594A2.467 2.467 0 0 1 37.5 20.5Z" />
-					</svg>
-					<h1>FAQs</h1>
-				</div>
-				<div class="faqs">
-					<div class="question">
-						<h2>What is Frontend Mentor, and how will it help me?</h2>
-						<div class="plus">
+		<div id="container">
+			<main>
+				<article>
+					<header>
+						<h1>FAQs</h1>
+						<figure>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								width="30"
-								height="31"
+								width="40"
+								height="41"
 								fill="none"
-								viewBox="0 0 30 31">
-								<path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188
-								15.5 12.203 12.203 0 0 0 15 3.312Zm4.688
-								13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0
-								0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938
-								0 0 1 0 1.876Z" / alt="plus-icon">
+								viewBox="0 0 40 41">
+								<path
+									fill="#AD28EB"
+									d="M37.5 20.5a2.467 2.467 0 0 1-1.64 2.344l-9.913 3.604-3.603 9.911a2.5 2.5 0 0 1-4.688 0l-3.604-9.922-9.911-3.593a2.5 2.5 0 0 1 0-4.688l9.921-3.604 3.594-9.911a2.5 2.5 0 0 1 4.688 0l3.604 9.921 9.911 3.594A2.467 2.467 0 0 1 37.5 20.5Z" />
 							</svg>
-						</div>
-						<div class="minus">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="30"
-								height="31"
-								fill="none"
-								viewBox="0 0 30 31">
-								<path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188
-								15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0
-								1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z" / alt="minus-icon">
-							</svg>
-						</div>
-					</div>
-					<div class="answer">
-						<p>
+						</figure>
+					</header>
+					<dl>
+						<dt>
+							What is Frontend Mentor, and how will it help me?
+							<div class="plus-minus-wrapper">
+								<svg
+									class="plus"
+									xmlns="http://www.w3.org/2000/svg"
+									width="30"
+									height="31"
+									fill="none"
+									viewBox="0 0 30 31">
+									<path
+										fill="#AD28EB"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z" />
+								</svg>
+								<svg
+									class="minus"
+									xmlns="http://www.w3.org/2000/svg"
+									width="30"
+									height="31"
+									fill="none"
+									viewBox="0 0 30 31">
+									<path
+										fill="#301534"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z" />
+								</svg>
+							</div>
+						</dt>
+
+						<dd class="answers">
 							Frontend Mentor offers realistic coding challenges to help
 							developers improve their frontend coding skills with projects in
 							HTML, CSS and JavaScript. It's suitable for all levels and ideal
 							for portfolio building.
-						</p>
-					</div>
-				</div>
-				<div class="faqs">
-					<div class="question">
-						<h2>Is Frontend Mentor free?</h2>
-						<div class="plus">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="30"
-								height="31"
-								fill="none"
-								viewBox="0 0 30 31">
-								<path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188
-								15.5 12.203 12.203 0 0 0 15 3.312Zm4.688
-								13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0
-								0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938
-								0 0 1 0 1.876Z" / alt="plus-icon">
-							</svg>
-						</div>
-						<div class="minus">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="30"
-								height="31"
-								fill="none"
-								viewBox="0 0 30 31">
-								<path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188
-								15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0
-								1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z" / alt="minus-icon">
-							</svg>
-						</div>
-					</div>
-					<div class="answer">
-						<p>
+						</dd>
+
+						<dt>
+							Is Frontend Mentor free?
+							<div class="plus-minus-wrapper">
+								<svg
+									class="plus"
+									xmlns="http://www.w3.org/2000/svg"
+									width="30"
+									height="31"
+									fill="none"
+									viewBox="0 0 30 31">
+									<path
+										fill="#AD28EB"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z" />
+								</svg>
+								<svg
+									class="minus"
+									xmlns="http://www.w3.org/2000/svg"
+									width="30"
+									height="31"
+									fill="none"
+									viewBox="0 0 30 31">
+									<path
+										fill="#301534"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z" />
+								</svg>
+							</div>
+						</dt>
+						<dd class="answers">
 							The majority of the challenges are free, yes. We do have some that
 							are premium and require a Pro subscription to access. It will say
 							on each challenge whether they are free or premium, so it's easy
 							to tell the difference.
-						</p>
-					</div>
-				</div>
+						</dd>
 
-				<div class="faqs">
-					<div class="question">
-						<h2>Can I use Frontend Mentor projects in my portfolio?</h2>
-						<div class="plus">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="30"
-								height="31"
-								fill="none"
-								viewBox="0 0 30 31">
-								<path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188
-								15.5 12.203 12.203 0 0 0 15 3.312Zm4.688
-								13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0
-								0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938
-								0 0 1 0 1.876Z" / alt="plus-icon">
-							</svg>
-						</div>
-						<div class="minus">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="30"
-								height="31"
-								fill="none"
-								viewBox="0 0 30 31">
-								<path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188
-								15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0
-								1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z" / alt="minus-icon">
-							</svg>
-						</div>
-					</div>
-					<div class="answer">
-						<p>
+						<dt>
+							Can I use Frontend Mentor projects in my portfolio?
+							<div class="plus-minus-wrapper">
+								<svg
+									class="plus"
+									xmlns="http://www.w3.org/2000/svg"
+									width="30"
+									height="31"
+									fill="none"
+									viewBox="0 0 30 31">
+									<path
+										fill="#AD28EB"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z" />
+								</svg>
+								<svg
+									class="minus"
+									xmlns="http://www.w3.org/2000/svg"
+									width="30"
+									height="31"
+									fill="none"
+									viewBox="0 0 30 31">
+									<path
+										fill="#301534"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z" />
+								</svg>
+							</div>
+						</dt>
+						<dd class="answers">
 							Definitely! Please do feel free to use whatever you build in your
 							portfolio. Helping developers add professional-looking projects to
 							their portfolio was one of the reasons we created this platform!
-						</p>
-					</div>
-				</div>
+						</dd>
 
-				<div class="faqs">
-					<div class="question">
-						<h2>How can I get help if I'm stuck on a challenge?</h2>
-						<div class="plus">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="30"
-								height="31"
-								fill="none"
-								viewBox="0 0 30 31">
-								<path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188
-								15.5 12.203 12.203 0 0 0 15 3.312Zm4.688
-								13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0
-								0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938
-								0 0 1 0 1.876Z" / alt="plus-icon">
-							</svg>
-						</div>
-						<div class="minus">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="30"
-								height="31"
-								fill="none"
-								viewBox="0 0 30 31">
-								<path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188
-								15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0
-								1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z" / alt="minus-icon">
-							</svg>
-						</div>
-					</div>
-					<div class="answer">
-						<p>
+						<dt>
+							How can I get help if I'm stuck on a challenge?
+							<div class="plus-minus-wrapper">
+								<svg
+									class="plus"
+									xmlns="http://www.w3.org/2000/svg"
+									width="30"
+									height="31"
+									fill="none"
+									viewBox="0 0 30 31">
+									<path
+										fill="#AD28EB"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z" />
+								</svg>
+								<svg
+									class="minus"
+									xmlns="http://www.w3.org/2000/svg"
+									width="30"
+									height="31"
+									fill="none"
+									viewBox="0 0 30 31">
+									<path
+										fill="#301534"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z" />
+								</svg>
+							</div>
+						</dt>
+						<dd class="answers">
 							The best (and quickest) way to get help on a challenge is in our
 							Discord server. There are thousands of other developers in there,
 							so it's a great place to ask questions. We even have a dedicated
 							"help" channel!
-						</p>
-					</div>
-				</div>
-			</div>
+						</dd>
+					</dl>
+				</article>
+			</main>
+			<footer></footer>
 		</div>
-		<div class="attribution">
-			Challenge by
-			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-				>Frontend Mentor</a
-			>. Coded by <a href="#">Christian Reed</a>.
-		</div>
-
 		<script src="script.js"></script>
 	</body>
 </html>
